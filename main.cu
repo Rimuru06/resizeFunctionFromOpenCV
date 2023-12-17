@@ -68,7 +68,7 @@ int main(int argc, char **argv){
 	int32_t *argb_res_gpu = NULL;
     int maxResolutionX = 4096;
     int maxResolutionY = 4096;
-	cv::Size newSz(1920/2, 1080/2);
+	cv::Size newSz(1920, 1080); //Resoulação nova que queira aqui
 
 	const char fname[] = ""; //Caminho para a imagem
 	image = cv::imread(fname, 1);
